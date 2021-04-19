@@ -1,0 +1,115 @@
+body {
+    
+    
+    text-align: center;
+}
+
+.pic {
+    width: 170px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    margin-top: 50px;
+
+}
+
+#welcome {
+    
+    
+    color: #FFFFFF;
+   
+    bottom: 0;
+    
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #fc03ad 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+
+}
+
+#bio {
+    padding: 350px;
+    text-align: center;
+}
+
+.inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu {
+    position:fixed;
+    font-family: sans-serif;
+    background:white;
+    top: 0px;
+    width:100%;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    display:inline;
+    color: deeppink;
+    
+    padding-left: 33px;
+    padding-right: 35px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+
+
+}
+
+.links:hover {
+    background-color: darkorchid;
+    font-size:25px;
+    text-decoration:underline;
+}
+
+p {
+    margin: 25px auto;
+    line-height: 1.3;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    color:crimson;
+    text-shadow: 2px 2px yellow;
+
+}
+
+.article:hover {
+    color: cornflowerblue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#writing a{
+    text-shadow:none !important;
+    text-decoration:underline !important;
+    color: blue !important
+}
+#contact{
+    width:100%;
+    background-color:darkcyan;
+}
+.contact_1 a{
+    color:white;
+    text-shadow:none;
+}
+.contact_1 h3{
+    display:inline;
+}
+.my_nav_bar{
+    position:sticky;
+    top:0;
+    z-index:99999;
+}
+input{
+    background:grey;
+}
